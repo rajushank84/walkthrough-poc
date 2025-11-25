@@ -1,0 +1,58 @@
+<html>
+<head>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi'>
+<!--   <link rel="stylesheet" href="https://naver.github.io/egjs-view360/release/latest/css/view360.min.css">
+  <link rel="stylesheet" href="https://naver.github.io/egjs-view360/v3/common/css/demo.css">
+  <link rel="stylesheet" href="https://naver.github.io/egjs-view360/v3/common/css/PanoControls.css"> -->
+
+  <link rel="stylesheet" href="./style/view360.min.css">
+  <link rel="stylesheet" href="./style/demo.css">
+  <link rel="stylesheet" href="./style/PanoControls.css">
+
+  <link rel="stylesheet" href="./index.css">
+  <!-- <script src="https://naver.github.io/egjs-view360/release/latest/dist/view360.pkgd.min.js"></script> -->
+<!--   <script src="https://naver.github.io/egjs-view360/v3/common/js/jquery-2.2.4.js"></script>
+  <script src="https://naver.github.io/egjs-view360/v3/common/js/screenfull.min.js"></script>
+  <script src="https://naver.github.io/egjs-view360/v3/common/js/PieView.js"></script>
+  <script src="https://naver.github.io/egjs-view360/release/latest/dist/view360.pkgd.js"></script>
+  <script src="https://naver.github.io/egjs-view360/v3/common/js/PanoControls.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.7.2/dist/sweetalert2.all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/webxr-polyfill@latest/build/webxr-polyfill.min.js"></script>
+  <script src="https://naver.github.io/egjs-view360/v3/common/js/initXR.js"></script> -->
+  <script src="./script/jquery-2.2.4.js"></script>
+  <script src="./script/screenfull.min.js"></script>
+  <script src="./script/PieView.js"></script>
+  <script src="./script/view360.pkgd.js"></script>
+  <script src="./script/PanoControls.js"></script>
+  <script src="./script/sweetalert2.all.min.js"></script>
+  <script src="./script/webxr-polyfill.min.js"></script>
+  <script src="./script/initXR.js"></script>
+
+  <script src="./index.js"></script>
+</head>
+
+<body>
+
+
+<div class="viewer" data-page="1">
+    <!-- <img src="https://raw.githubusercontent.com/rajushank84/walkthrough-poc/refs/heads/main/img/hall.jpeg" /> -->
+    <div class="container"></div>
+    <div class="layer" onclick="closeLayer(event);">
+        <img src="https://naver.github.io/egjs-view360/v3/examples/panoviewer/etc/img/book1.jpg">
+    </div>
+    <div class="hotspot search" data-page="1" data-anchor-index="0" data-yaw="52" data-pitch="-14" onclick="openLayer('book1.jpg')"></div>
+    <div class="hotspot search" data-page="1" data-anchor-index="1" data-yaw="-45" data-pitch="-18" onclick="openLayer('book2.jpg')"></div>
+    <div class="hotspot search" data-page="1" data-anchor-index="2" data-yaw="6" data-pitch="-17" onclick="openLayer('book3.jpg')"></div>
+    <div class="hotspot link" data-page="1" data-anchor-index="3" data-yaw="-96" data-pitch="-8" onclick="load(this, 2)">
+        Economy<br>
+        Culture
+    </div>
+    <div class="hotspot search" data-page="2" data-anchor-index="0" data-yaw="-60" data-pitch="-23" onclick="openLayer('book4.jpg')"></div>
+    <div class="hotspot link" data-page="2" data-anchor-index="1" data-yaw="80" data-pitch="-12" onclick="load(this, 1)">
+        Technology<br>Science
+    </div>
+</div>
+
+
+</body>
+</html>
