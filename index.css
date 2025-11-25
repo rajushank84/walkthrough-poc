@@ -203,6 +203,6 @@ body {
     
 .viewer {
   height: 100vh;
-/*  max-width: 800px;*/
+  max-width: 800px;
 /*  height: 440px;*/
 }
