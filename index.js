@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // image: "https://naver.github.io/egjs-view360/v3/examples/panoviewer/controls/equi-car-inside.jpg",
       // image: "./img/hall.jpeg",
       // image: "https://raw.githubusercontent.com/rajushank84/walkthrough-poc/refs/heads/main/img/hall.jpeg",
-      image: "https://raw.githubusercontent.com/rajushank84/walkthrough-poc/refs/heads/main/img/office.jpg",
+      image: "https://raw.githubusercontent.com/rajushank84/walkthrough-poc/refs/heads/main/img/office2.jpg",
       useZoom: false,
       // projectionType: eg.view360.PanoViewer.PROJECTION_TYPE.CUBEMAP,
       projectionType: "equirectangular",
