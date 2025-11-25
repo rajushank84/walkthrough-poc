@@ -101,7 +101,7 @@ function load(target, page) {
         panoviewer.setAttribute("data-page", currentPage);
         // viewer.setImage("https://naver.github.io/egjs-view360/v3/examples/panoviewer/etc/img/bookcube" + page + ".jpg", {
         // viewer.setImage("hall.jpeg", {
-        viewer.setImage("https://raw.githubusercontent.com/rajushank84/walkthrough-poc/refs/heads/main/img/office2.jpg?a=3", {
+        viewer.setImage("https://raw.githubusercontent.com/rajushank84/walkthrough-poc/refs/heads/main/img/office2.jpg?a=4", {
             // projectionType: eg.view360.PanoViewer.PROJECTION_TYPE.CUBEMAP,
             projectionType: "equirectangular",
             cubemapConfig: {
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // image: "https://naver.github.io/egjs-view360/v3/examples/panoviewer/controls/equi-car-inside.jpg",
       // image: "./img/hall.jpeg",
       // image: "https://raw.githubusercontent.com/rajushank84/walkthrough-poc/refs/heads/main/img/hall.jpeg?a=1",
-      image: "https://raw.githubusercontent.com/rajushank84/walkthrough-poc/refs/heads/main/img/office2.jpg?a=3",
+      image: "https://raw.githubusercontent.com/rajushank84/walkthrough-poc/refs/heads/main/img/office2.jpg?a=4",
       useZoom: false,
       // projectionType: eg.view360.PanoViewer.PROJECTION_TYPE.CUBEMAP,
       projectionType: "equirectangular",
