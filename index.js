@@ -99,9 +99,11 @@ function load(target, page) {
 
     setTimeout(function () {
         panoviewer.setAttribute("data-page", currentPage);
-        viewer.setImage("https://naver.github.io/egjs-view360/v3/examples/panoviewer/etc/img/bookcube" + page + ".jpg", {
+        // viewer.setImage("https://naver.github.io/egjs-view360/v3/examples/panoviewer/etc/img/bookcube" + page + ".jpg", {
         // viewer.setImage("hall.jpeg", {
-            projectionType: eg.view360.PanoViewer.PROJECTION_TYPE.CUBEMAP,
+        viewer.setImage("https://raw.githubusercontent.com/rajushank84/walkthrough-poc/refs/heads/main/img/office2.jpg?a=3", {
+            // projectionType: eg.view360.PanoViewer.PROJECTION_TYPE.CUBEMAP,
+            projectionType: "equirectangular",
             cubemapConfig: {
                 tileConfig: { flipHorizontal: true, rotation: 0 },
             }
